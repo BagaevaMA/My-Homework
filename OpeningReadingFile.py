@@ -2,9 +2,8 @@ import os
 from pprint import pprint
 
 current = os.getcwd()
-folder = 'MY HOMEWORK'
 file_name = 'recipes.txt'
-full_path = os.path.join(current, folder, file_name)
+full_path = os.path.join(current, file_name)
 
 with open(full_path, 'rt', encoding='utf-8') as file:
     f = file.read()
@@ -51,13 +50,12 @@ get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'
 
 
 current = os.getcwd()
-folder = 'MY HOMEWORK'
 file_name_1 = '1.txt'
-full_path_1 = os.path.join(current, folder, file_name_1)
+full_path_1 = os.path.join(current, file_name_1)
 file_name_2 = '2.txt'
-full_path_2 = os.path.join(current, folder, file_name_2)
+full_path_2 = os.path.join(current, file_name_2)
 file_name_3 = '3.txt'
-full_path_3 = os.path.join(current, folder, file_name_3)
+full_path_3 = os.path.join(current, file_name_3)
 
 with open(full_path_1, 'rt', encoding='utf-8') as file_1:
     f = file_1.read()
@@ -68,28 +66,33 @@ with open(full_path_3, 'rt', encoding='utf-8') as file_3:
 
 print('Задача №3')
 
-line_count_1 = str(sum(1 for line in open(full_path_1, 'rt', encoding='utf-8')))
-print(line_count_1)
-line_count_2 = str(sum(1 for line in open(full_path_2, 'rt', encoding='utf-8')))
-print(line_count_2)
-line_count_3 = str(sum(1 for line in open(full_path_3, 'rt', encoding='utf-8')))
-print(line_count_3)
+list_file = os.listdir()
+print(list_file)
 
+dict_file = {}
 
-res_file = open("res_file.txt","w", encoding='utf-8').write(file_name_2 + ('\n') + line_count_2 + open(full_path_2, 'rt', encoding='utf-8').read() + ('\n\n') + file_name_1 + ('\n') + line_count_1 +  ('\n') + open(full_path_1, 'rt', encoding='utf-8').read() +('\n\n')+  file_name_3 + ('\n') +  line_count_3+ ('\n') +  open(full_path_3, 'rt', encoding='utf-8').read())
+for file1 in list_file:
+    if file1.endswith('.txt') and file1.find('recipes'):
+        with open(file1,'rt', encoding='utf-8') as f:
+            count = 0
+            for l in f:
+                count += 1
+            dict_file[file1] = count
 
+print(dict_file)
 
+sorted_turple = sorted(dict_file.items(), key = lambda x: x[1])
+sorted_dict = dict(sorted_turple)
+res_file = open('res_file.txt', 'a', encoding='utf-8')
+for f in sorted_dict:
+    name=f'{f}\n{sorted_dict[f]}\n'
+    res_file.write(name)
+    with open(f,'rt', encoding='utf-8') as text:
+        for line in text:
+            res_file.write(line)
+    res_file.write('\n\n')
 
-
-
-
-
-
-
-
-
-
-
+res_file.close()
 
 
 
