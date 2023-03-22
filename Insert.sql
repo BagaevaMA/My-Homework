@@ -1,5 +1,5 @@
 INSERT INTO artist(artist_name)
-VALUES('Король и Шут');
+VALUES('РљРѕСЂРѕР»СЊ Рё РЁСѓС‚');
 
 INSERT INTO artist(artist_name)
 VALUES('JONY');
@@ -8,10 +8,10 @@ INSERT INTO artist(artist_name)
 VALUES('Artik & Asti');
 
 INSERT INTO artist(artist_name)
-VALUES('КИНО');
+VALUES('РљРРќРћ');
 
 INSERT INTO artist(artist_name)
-VALUES('Баста');
+VALUES('Р‘Р°СЃС‚Р°');
 
 INSERT INTO artist(artist_name)
 VALUES('Imagine Dragons');
@@ -20,88 +20,88 @@ INSERT INTO artist(artist_name)
 VALUES('Rammstein');
 
 INSERT INTO artist(artist_name)
-VALUES('Би-2');
+VALUES('Р‘Рё-2');
 
 INSERT INTO genre(genre_name)
-VALUES('панк');
+VALUES('РїР°РЅРє');
 
 INSERT INTO genre(genre_name)
-VALUES('русская поп-музыка');
+VALUES('СЂСѓСЃСЃРєР°СЏ РїРѕРї-РјСѓР·С‹РєР°');
 
 INSERT INTO genre(genre_name)
-VALUES('русский рок');
+VALUES('СЂСѓСЃСЃРєРёР№ СЂРѕРє');
 
 INSERT INTO genre(genre_name)
-VALUES('русский рэп');
+VALUES('СЂСѓСЃСЃРєРёР№ СЂСЌРї');
 
 INSERT INTO genre(genre_name)
-VALUES('иностранный рок');
+VALUES('РёРЅРѕСЃС‚СЂР°РЅРЅС‹Р№ СЂРѕРє');
 
 INSERT INTO genre(genre_name)
-VALUES('индастриал');
+VALUES('РёРЅРґР°СЃС‚СЂРёР°Р»');
 
 INSERT INTO album(album_name, release_year)
-VALUES('Тень клоуна', 2008);
+VALUES('РўРµРЅСЊ РєР»РѕСѓРЅР°', 2008);
 
 INSERT INTO album(album_name, release_year)
-VALUES('РайОдинНаДвоих', 2013);
+VALUES('Р Р°Р№РћРґРёРЅРќР°Р”РІРѕРёС…', 2013);
 
 INSERT INTO album(album_name, release_year)
-VALUES('Не ищите во мне жанры', 2022);
+VALUES('РќРµ РёС‰РёС‚Рµ РІРѕ РјРЅРµ Р¶Р°РЅСЂС‹', 2022);
 
 INSERT INTO album(album_name, release_year)
-VALUES('Группа крови', 1988);
+VALUES('Р“СЂСѓРїРїР° РєСЂРѕРІРё', 1988);
 
 INSERT INTO album(album_name, release_year)
-VALUES('Баста 3', 2010);
+VALUES('Р‘Р°СЃС‚Р° 3', 2010);
 
 INSERT INTO album(album_name, release_year)
 VALUES('Night Visions Deluxe', 2018);
 
 INSERT INTO album(album_name, release_year)
-VALUES('Иномарки', 2004);
+VALUES('РРЅРѕРјР°СЂРєРё', 2004);
 
 INSERT INTO album(album_name, release_year)
 VALUES('Mutter', 2001);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Тень 3. Двое против всех', '00:03:52', 1);
+VALUES('РўРµРЅСЊ 3. Р”РІРѕРµ РїСЂРѕС‚РёРІ РІСЃРµС…', '00:03:52', 1);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Тень 9. Невидимка', '00:03:53', 1);
+VALUES('РўРµРЅСЊ 9. РќРµРІРёРґРёРјРєР°', '00:03:53', 1);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Больше, чем любовь', '00:02:54', 2);
+VALUES('Р‘РѕР»СЊС€Рµ, С‡РµРј Р»СЋР±РѕРІСЊ', '00:02:54', 2);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Осколки', '00:04:29', 2);
+VALUES('РћСЃРєРѕР»РєРё', '00:04:29', 2);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Регресс', '00:02:04', 3);
+VALUES('Р РµРіСЂРµСЃСЃ', '00:02:04', 3);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Полигон', '00:02:24', 3);
+VALUES('РџРѕР»РёРіРѕРЅ', '00:02:24', 3);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Отпускаю', '00:03:54', 4);
+VALUES('РћС‚РїСѓСЃРєР°СЋ', '00:03:54', 4);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Ростов', '00:04:33', 4);
+VALUES('Р РѕСЃС‚РѕРІ', '00:04:33', 4);
 
 INSERT INTO track(track_name, track_lengths, album_id)
 VALUES('Amsterdam', '00:04:05', 5);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Мой', '00:03:36', 2);
+VALUES('РњРѕР№', '00:03:36', 2);
 
 INSERT INTO track(track_name, track_lengths, album_id)
 VALUES('Working Man', '00:03:55', 5);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Прощай, Берлин', '00:05:13', 6);
+VALUES('РџСЂРѕС‰Р°Р№, Р‘РµСЂР»РёРЅ', '00:05:13', 6);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Она', '00:04:55', 6);
+VALUES('РћРЅР°', '00:04:55', 6);
 
 INSERT INTO track(track_name, track_lengths, album_id)
 VALUES('Rein Raus', '00:03:09', 7);
@@ -110,31 +110,31 @@ INSERT INTO track(track_name, track_lengths, album_id)
 VALUES('Feuer Frei!', '00:03:09', 7);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Спокойная ночь', '00:06:03', 8);
+VALUES('РЎРїРѕРєРѕР№РЅР°СЏ РЅРѕС‡СЊ', '00:06:03', 8);
 
 INSERT INTO track(track_name, track_lengths, album_id)
-VALUES('Легенда', '00:04:09', 8);
+VALUES('Р›РµРіРµРЅРґР°', '00:04:09', 8);
 
 INSERT INTO collection(collection_name, collection_release_year)
-VALUES('Акустический альбом', 2013);
+VALUES('РђРєСѓСЃС‚РёС‡РµСЃРєРёР№ Р°Р»СЊР±РѕРј', 2013);
 
 INSERT INTO collection(collection_name, collection_release_year)
-VALUES('Миллениум', 2017);
+VALUES('РњРёР»Р»РµРЅРёСѓРј', 2017);
 
 INSERT INTO collection(collection_name, collection_release_year)
-VALUES('Винил', 2020);
+VALUES('Р’РёРЅРёР»', 2020);
 
 INSERT INTO collection(collection_name, collection_release_year)
-VALUES('Расслабься', 2019);
+VALUES('Р Р°СЃСЃР»Р°Р±СЊСЃСЏ', 2019);
 
 INSERT INTO collection(collection_name, collection_release_year)
 VALUES('The Best', 2018);
 
 INSERT INTO collection(collection_name, collection_release_year)
-VALUES('Серебряный век', 2015);
+VALUES('РЎРµСЂРµР±СЂСЏРЅС‹Р№ РІРµРє', 2015);
 
 INSERT INTO collection(collection_name, collection_release_year)
-VALUES('Новый', 2012);
+VALUES('РќРѕРІС‹Р№', 2012);
 
 INSERT INTO collection(collection_name, collection_release_year)
 VALUES('Live', 2019);
