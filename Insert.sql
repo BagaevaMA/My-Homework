@@ -64,6 +64,9 @@ VALUES('Иномарки', 2004);
 INSERT INTO album(album_name, release_year)
 VALUES('Mutter', 2001);
 
+INSERT INTO album(album_name, release_year)
+VALUES('Гармония', 2019);
+
 INSERT INTO track(track_name, track_lengths, album_id)
 VALUES('Тень 3. Двое против всех', '00:03:52', 1);
 
@@ -114,6 +117,12 @@ VALUES('Спокойная ночь', '00:06:03', 8);
 
 INSERT INTO track(track_name, track_lengths, album_id)
 VALUES('Легенда', '00:04:09', 8);
+
+INSERT INTO track(track_name, track_lengths, album_id)
+VALUES('Повело', '00:02:55', 9);
+
+INSERT INTO track(track_name, track_lengths, album_id)
+VALUES('Анечка', '00:03:36', 9);
 
 INSERT INTO collection(collection_name, collection_release_year)
 VALUES('Акустический альбом', 2013);
@@ -187,6 +196,9 @@ VALUES(7, 7);
 INSERT INTO album_artist(album_id, artist_id)
 VALUES(8, 4);
 
+INSERT INTO album_artist(album_id, artist_id)
+VALUES(9, 3);
+
 INSERT INTO track_collection(track_id, collection_id)
 VALUES(1, 1);
 
@@ -237,3 +249,6 @@ VALUES(15, 7);
 
 INSERT INTO track_collection(track_id, collection_id)
 VALUES(16, 5);
+
+INSERT INTO track_collection(track_id, collection_id)
+VALUES(18, 4);
