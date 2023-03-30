@@ -44,6 +44,9 @@ INSERT INTO album(album_name, release_year)
 VALUES('Тень клоуна', 2008);
 
 INSERT INTO album(album_name, release_year)
+VALUES('Водопад', 2020);
+
+INSERT INTO album(album_name, release_year)
 VALUES('РайОдинНаДвоих', 2013);
 
 INSERT INTO album(album_name, release_year)
@@ -198,6 +201,9 @@ VALUES(8, 4);
 
 INSERT INTO album_artist(album_id, artist_id)
 VALUES(9, 3);
+
+INSERT INTO album_artist(album_id, artist_id)
+VALUES(10, 3);
 
 INSERT INTO track_collection(track_id, collection_id)
 VALUES(1, 1);
